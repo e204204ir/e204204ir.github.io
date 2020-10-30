@@ -1,0 +1,28 @@
+body{
+    background-image: url(../images/いらすとやBG.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+h3{
+    color: darkgreen;
+    text-align:center;
+    background-color: lawngreen;
+}
+
+h5{
+    color: blue;
+}
+
+p{
+    color: brown;
+}
