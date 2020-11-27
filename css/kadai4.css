@@ -1,0 +1,41 @@
+body{
+    background-image: url(../images/yellow0003.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    position: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.top{
+    color: white;
+    background-color: black;
+}
+
+.link{
+    color: brown;
+    background-color: darkolivegreen;
+}
+
+h2{
+    text-align: center;
+}
+
+.favorite1{
+    color: green;
+    background-color: rebeccapurple;
+}
+
+.favorite2{
+    color: red;
+    background-color: blue;
+}
