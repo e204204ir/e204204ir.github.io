@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*ここからヘッダ
+------------------------------------------------*/
+.site-header{
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.logo:hover{
+    opacity: 0.5;
+}
+
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.main-nav a .hover{
+    display: none;
+}
+
+.main-nav li{
+    padding: 20px 25px;
+}
+
+.main-nav a{
+    color: white;
+}
+
+.main-nav a:hover{
+    color: darkgray;
+}
+
+.main-nav a:hover .normal{
+    display: none;
+}
+
+.main-nav a:hover .hover{
+    display: flex;
+}
+
+
+/*ここからコンテンツ
+----------------------------------------------*/
+.content{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.content p{
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+
+.page-title{
+    font-size: 5rem;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-top: 80px;
+}
+
+.button{
+    font-size: 1.375rem;
+    background-color: darkblue;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+.button:hover{
+    background-color: mediumblue;
+}
+
+.bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+#home{
+    background-image: url(../images/contents_index.jpg);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+}
+
+#parakeet_info p{
+    margin: 0;
+    padding: 0;
+}
+
+#budgerigar{
+    background-image: url(../images/contents_1.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
+}
+
+#cockatiel{
+    background-image: url(../images/contents_2.jpg);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+}
+
+#lovebird{
+    background-image: url(../images/contents_3.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
+}
